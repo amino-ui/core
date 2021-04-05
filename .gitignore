@@ -74,3 +74,5 @@ dist
 
 # Storybook static build (https://storybook.js.org/)
 storybook-static
+
+pkg
