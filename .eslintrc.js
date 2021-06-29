@@ -36,6 +36,8 @@ module.exports = {
     camelcase: 'off',
     'no-unused-vars': 'off', // Disable the base rule it can report incorrect errors
     '@typescript-eslint/no-unused-vars': 'warn',
+    'no-use-before-define': 'off', // Disable the base rule as it can report incorrect errors
+    '@typescript-eslint/no-use-before-define': ['error'],
     'import/extensions': [
       'error',
       'ignorePackages',
